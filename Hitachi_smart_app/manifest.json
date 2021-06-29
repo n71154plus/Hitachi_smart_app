@@ -1,0 +1,14 @@
+{
+  "domain": "Hitachi_smart_app",
+  "name": "Hitachi Smart App",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/osk2/Hitachi_smart_app",
+  "issue_tracker": "https://github.com/osk2/Hitachi_smart_app/issues",
+  "dependencies": [],
+  "codeowners": [
+    "@osk2"
+  ],
+  "iot_class": "cloud_polling",
+  "requirements": []
+}
