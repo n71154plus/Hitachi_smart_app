@@ -1,10 +1,10 @@
 {
-  "domain": "Hitachi_smart_app",
+  "domain": "Hitachi_SmartHome",
   "name": "Hitachi Smart App",
   "version": "1.0.0",
   "config_flow": true,
-  "documentation": "https://github.com/n71154plus/Hitachi_smart_app",
-  "issue_tracker": "https://github.com/n71154plus/Hitachi_smart_app/issues",
+  "documentation": "https://github.com/n71154plus/Hitachi_SmartHome",
+  "issue_tracker": "https://github.com/n71154plus/Hitachi_SmartHome/issues",
   "dependencies": [],
   "codeowners": [
     "@n71154plus"
