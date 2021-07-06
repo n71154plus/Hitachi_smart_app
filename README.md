@@ -12,10 +12,6 @@ This integration allows you to control your Hitachi appliances.
 
 # Installation
 
-### Via HACS (recommended)
-
-Search and install `Hitachi Smart App` in HACS
-
 ### Manually
 
 Copy `custom_components/Hitachi_smart_app` into your `custom_components/`.
