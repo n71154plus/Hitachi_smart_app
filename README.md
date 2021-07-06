@@ -2,9 +2,9 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/osk2/panasonic_smart_app?style=for-the-badge)
 [![GitHub license](https://img.shields.io/github/license/osk2/panasonic_smart_app?style=for-the-badge)](https://github.com/osk2/panasonic_smart_app/blob/master/LICENSE)
 
-[繁體中文](README-zh.md) | [English](README.md)
-
 # Hitachi Smart App
+
+| ![smart-app-icon](https://raw.githubusercontent.com/n71154plus/Hitachi_smart_app/master/assets/smart-app-icon.png) |
 
 Home Assistant integration for [Hitachi Smart App](https://play.google.com/store/apps/details?id=com.hitachi.TaiSEIA.smarthome).
 
@@ -31,7 +31,7 @@ Copy `custom_components/Hitachi_smart_app` into your `custom_components/`.
 
 Following devices were tested.
 
-Feel free to report working device by opening an [issue](https://github.com/osk2/panasonic_smart_app/issues)
+Feel free to report working device by opening an [issue](https://github.com/n71154plus/Hitachi_smart_app/issues)
 
 | Device Type | Module Type  |
 | ----------- | ------------ |
