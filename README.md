@@ -2,10 +2,6 @@
 
 # Installation
 
-### Via HACS (recommended)
-
-Search and install `Hitachi Smart App` in HACS
-
 ### Manually
 
 Copy `custom_components/panasonic_smart_app` into your `custom_components/`.
