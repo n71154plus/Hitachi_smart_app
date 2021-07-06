@@ -1,9 +1,0 @@
-{
-  "name": "Hitachi Smart App",
-  "render_readme": false,
-  "domains": [
-    "climate",
-    "humidifier"
-  ],
-  "iot_class": "Cloud Polling"
-}
