@@ -71,8 +71,8 @@ class HitachiClimate(HitachiBaseEntity, ClimateEntity):
 
         self._min_temp=int(device['BLEData'][38])
         self._max_temp=int(device['BLEData'][39])
-        self._target_temperature_high=float(int(device['BLEData'][34]))
-        self._target_temperature_low=float(int(device['BLEData'][35]))
+        self._target_temperature_high=float(int(device['BLEData'][35]))
+        self._target_temperature_low=float(int(device['BLEData'][34]))
         self._unit = TEMP_CELSIUS
         self._target_temperature = None
         self._current_temperature = None
