@@ -4,7 +4,7 @@
 
 ### Via HACS (recommended)
 
-Search and install `Panasonic Smart App` in HACS
+Search and install `Hitachi Smart App` in HACS
 
 ### Manually
 
