@@ -151,11 +151,11 @@ class HitachiClimate(HitachiBaseEntity, ClimateEntity):
     def preset_mode(self) -> str:
         """ Return the current operation """
         if self.status[27]==0 and self.status[26]==0:
-            return self.preset_modes[0]
+            return "一般模式"
         if self.status[27]==1 and self.status[26]==0:
-            return self.preset_modes[1]
+            return "節能模式"
         if self.status[27]==0 and self.status[26]==1:
-            return self.preset_modes[2]
+            return "快速模式"
 
     @property
     def preset_modes(self) -> list:
