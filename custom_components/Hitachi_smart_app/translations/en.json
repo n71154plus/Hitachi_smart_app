@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hitachi Smart App authentication",
+        "description": "Login with your Hitachi Smart App credentials.",
+        "data": {
+          "username": "Hitachi Smart App username",
+          "password": "Hitachi Smart App password"
+        }
+      }
+    },
+    "error": {
+      "auth": "Username/Password is incorrect."
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance is allowed."
+    }
+  }
+}
