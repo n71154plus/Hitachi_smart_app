@@ -256,7 +256,7 @@ class HitachiClimate(HitachiBaseEntity, ClimateEntity):
 
     @property
     def min_temp(self) -> int:
-        if ( 131 in self.commands):
+        if ( 3 in self.commands):
             return self.commands[3]["MIN"]
         else:
             _LOGGER.debug(f"------- UPDATING fail {self.nickname} {self.commands}-------")
@@ -264,7 +264,7 @@ class HitachiClimate(HitachiBaseEntity, ClimateEntity):
 
     @property
     def max_temp(self) -> int:
-        if ( 131 in self.commands):
+        if ( 3 in self.commands):
             return self.commands[3]["MAX"]
         else:
             _LOGGER.debug(f"------- UPDATING fail {self.nickname} {self.commands}-------")
