@@ -687,7 +687,7 @@ class smarthome(object):
             json=data,
             params=params,
             headers=headers,
-            ssl=self.sslcontext,
+            ssl=False,
         ) as response:
             if response.status == HTTP_OK:
                 try:
