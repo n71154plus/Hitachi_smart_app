@@ -170,13 +170,13 @@ class HitachiClimate(HitachiBaseEntity, ClimateEntity):
     async def async_set_preset_mode(self, preset_mode) -> None:
         if preset_mode=="一般模式":
             if 26 in self.commands:
-                await self.client.set_command(self.device, 26, 0)
+                await self.client.set_command(self.device, 154, 0)
             if 27 in self.commands:
-                await self.client.set_command(self.device, 27, 0)
+                await self.client.set_command(self.device, 155, 0)
         elif preset_mode=="節能模式":
-            await self.client.set_command(self.device, 27, 1)
+            await self.client.set_command(self.device, 155, 1)
         elif preset_mode=="快速模式":
-            await self.client.set_command(self.device, 26, 1)
+            await self.client.set_command(self.device, 154, 1)
 
     @property
     def fan_mode(self) -> str:
