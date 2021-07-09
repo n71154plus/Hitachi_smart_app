@@ -1,0 +1,6 @@
+_test
+__pycache__
+secrets.py
+*.pyc
+.DS_Store
+.vscode
