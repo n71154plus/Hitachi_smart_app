@@ -4,7 +4,7 @@
 
 # Hitachi Smart App
 
-| ![smart-app-icon](https://raw.githubusercontent.com/n71154plus/Hitachi_smart_app/master/assets/smart-app-icon.png) |
+ ![smart-app-icon](https://raw.githubusercontent.com/n71154plus/Hitachi_smart_app/master/assets/smart-app-icon.png) 
 
 Home Assistant integration for [Hitachi Smart App](https://play.google.com/store/apps/details?id=com.hitachi.TaiSEIA.smarthome).
 
