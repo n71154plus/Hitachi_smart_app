@@ -54,6 +54,10 @@ class HitachiDehumidifier(HitachiBaseEntity, HumidifierEntity):
 
 
     @property
+    def device_class(self):
+        return DEVICE_CLASS_DEHUMIDIFIER
+
+    @property
     def label(self):
         return ""
 
