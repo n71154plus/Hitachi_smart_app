@@ -47,8 +47,12 @@ class HitachiSensor(HitachiBaseEntity, SwitchEntity):
         return self.commands["ICON"]
 
     @property
-    def is_on(self) -> str:
-        return bool(self.status[self.cmd])
+    def is_on(self) -> bool:
+        if ( self.cmd in self.status):
+            return bool(self.status[self.cmd])
+        else:
+            _LOGGER.debug(f"------- UPDATING fail {self.nickname} {self.status}-------")
+            return False
 
     async def async_turn_on(self, **kwargs):
         await self.client.set_command(self.device, self.cmd|0x80, 1)
