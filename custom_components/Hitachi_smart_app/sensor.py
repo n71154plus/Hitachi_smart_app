@@ -1,6 +1,10 @@
 from datetime import timedelta
 import logging,re,asyncio
 from homeassistant.components.sensor import SensorEntity
+from homeassistant.const import (
+    DEVICE_CLASS_HUMIDITY,
+    DEVICE_CLASS_TEMPERATURE,
+)
 
 from .entity import HitachiBaseEntity
 from .const import (
@@ -39,6 +43,14 @@ class HitachiSensor(HitachiBaseEntity, SensorEntity):
     async def async_update(self):
         if self.auth['ContMID'] in self.hass.data[DOMAIN]:
             self.status=self.hass.data[DOMAIN][self.auth['ContMID']]
+
+    @property
+    def device_class(self):
+        name = self.commands["Name"]
+        if '溫度' in name:
+            return DEVICE_CLASS_TEMPERATURE
+        if '濕度' in name:
+            return DEVICE_CLASS_HUMIDITY
 
     @property
     def label(self) -> str:
