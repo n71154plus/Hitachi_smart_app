@@ -1,7 +1,7 @@
 {
   "domain": "Hitachi_smart_app",
   "name": "Hitachi Smart App",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "config_flow": true,
   "documentation": "https://github.com/n71154plus/Hitachi_smart_app",
   "issue_tracker": "https://github.com/n71154plus/Hitachi_smart_app/issues",
