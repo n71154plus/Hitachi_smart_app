@@ -1,9 +1,9 @@
 """ Hitachi Smart App API """
 from datetime import timedelta
 from typing import Literal
+from http import HTTPStatus
 import logging,hashlib,json,ssl,base64,re,asyncio
 
-from homeassistant.const import HTTP_OK
 from homeassistant.util import Throttle
 from .exceptions import (
     HitachiRefreshTokenNotFound,
@@ -689,7 +689,7 @@ class smarthome(object):
             headers=headers,
             ssl=False,
         ) as response:
-            if response.status == HTTP_OK:
+            if response.status == HTTPStatus.OK:
                 try:
                     resp = await response.json()
                 except:
